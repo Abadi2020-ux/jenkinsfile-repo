@@ -17,7 +17,7 @@ bat 'mvn package deploy -DmuleDeploy'
  
   stage('Perform Regression Testing'){
  steps{
- bat C:\\Users\abadi\\AppData\\Roaming\\npm\\'newman run C:\\postman-collections\\git-pipeline-deployment.postman_collection.json --disable-unicode'
+ bat 'C:\\Users\abadi\\AppData\\Roaming\\npm\\newman run C:\\postman-collections\\git-pipeline-deployment.postman_collection.json --disable-unicode'
  }
  }
  }
