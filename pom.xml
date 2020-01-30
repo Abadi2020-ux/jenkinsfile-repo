@@ -43,7 +43,7 @@
           <workerType>Micro</workerType>
           <workers>1</workers> 
           <uri>https://anypoint.mulesoft.com</uri>; 
-          <applicationName>cicd-jenkins1</applicationName> 
+          <applicationName>jenkinsfile-project-pipeline</applicationName> 
         </cloudHubDeployment> 
       </configuration> 
       <executions> 
