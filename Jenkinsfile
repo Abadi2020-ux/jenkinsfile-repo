@@ -17,7 +17,7 @@ bat 'mvn package deploy -DmuleDeploy'
  
   stage('Perform Regression Testing'){
  steps{
- bat 'newman run C://postman-collections//cicd-collection.postman_collection.json --disable-unicode'
+ bat 'newman run C:\\postman-collections\\cicd-collection.postman_collection.json --disable-unicode'
  }
  }
  }
